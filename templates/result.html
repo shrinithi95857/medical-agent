@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagnosis Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Diagnosis Results</h1>
+        <p><strong>Your symptoms:</strong> {{ symptoms|join(', ') }}</p>
+
+        {% if results %}
+            {% for disease, advice, confidence in results %}
+                <div class="result-card">
+                    <h2>{{ disease.title() }}</h2>
+                    <p>{{ advice }}</p>
+                    <div class="confidence">
+                        <div class="bar" style="width: {{ confidence }}%"></div>
+                    </div>
+                    <p class="confidence-text">Match Confidence: {{ confidence }}%</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No clear match found. Please consult a doctor for professional advice.</p>
+        {% endif %}
+
+        <a href="/" class="back-btn">🔙 Check Again</a>
+    </div>
+</body>
+</html>

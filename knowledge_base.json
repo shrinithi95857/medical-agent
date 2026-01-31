@@ -1,0 +1,94 @@
+{
+    "flu": {
+        "symptoms": ["fever", "cough", "headache", "tiredness", "body ache", "chills"],
+        "advice": "You may have flu. Take rest, drink plenty of fluids, and consult a doctor if fever persists beyond 3 days."
+    },
+    "cold": {
+        "symptoms": ["sneezing", "runny nose", "sore throat", "mild cough", "stuffy nose"],
+        "advice": "You may have a common cold. Stay hydrated, take steam inhalation, and rest well."
+    },
+    "allergy": {
+        "symptoms": ["sneezing", "itchy eyes", "runny nose", "rashes", "watery eyes"],
+        "advice": "You may be experiencing an allergy. Avoid known triggers and consider antihistamines after consulting a doctor."
+    },
+    "migraine": {
+        "symptoms": ["headache", "nausea", "sensitivity to light", "vomiting", "blurred vision"],
+        "advice": "You may have a migraine. Rest in a dark room, stay hydrated, and avoid bright lights or loud noises."
+    },
+    "covid": {
+        "symptoms": ["fever", "cough", "tiredness", "loss of taste", "loss of smell", "difficulty breathing"],
+        "advice": "You may have COVID-19. Self-isolate, wear a mask, and get tested immediately."
+    },
+    "asthma": {
+        "symptoms": ["wheezing", "shortness of breath", "chest tightness", "cough"],
+        "advice": "You may have asthma. Avoid dust and smoke, and use prescribed inhalers regularly."
+    },
+    "bronchitis": {
+        "symptoms": ["cough", "chest pain", "shortness of breath", "fatigue"],
+        "advice": "You may have bronchitis. Rest, drink warm fluids, and consult a doctor for antibiotics if needed."
+    },
+    "sinusitis": {
+        "symptoms": ["facial pain", "headache", "nasal congestion", "runny nose", "loss of smell"],
+        "advice": "You may have sinusitis. Try steam inhalation, stay hydrated, and consult a doctor if symptoms persist."
+    },
+    "diabetes": {
+        "symptoms": ["frequent urination", "excessive thirst", "blurred vision", "fatigue", "weight loss"],
+        "advice": "Possible diabetes. Check your blood sugar levels and consult an endocrinologist."
+    },
+    "hypertension": {
+        "symptoms": ["headache", "dizziness", "blurred vision", "chest pain"],
+        "advice": "You may have high blood pressure. Reduce salt intake, exercise, and monitor your BP regularly."
+    },
+    "depression": {
+        "symptoms": ["sadness", "loss of interest", "fatigue", "sleep issues", "low appetite"],
+        "advice": "You may be experiencing depression. Talk to a counselor or therapist for professional support."
+    },
+    "anxiety": {
+        "symptoms": ["restlessness", "rapid heartbeat", "sweating", "trouble sleeping", "fear"],
+        "advice": "You may have anxiety. Practice deep breathing and relaxation exercises; consult a psychologist if persistent."
+    },
+    "food_poisoning": {
+        "symptoms": ["vomiting", "diarrhea", "stomach pain", "fever", "nausea"],
+        "advice": "You may have food poisoning. Drink oral rehydration solution (ORS) and avoid solid food until recovery."
+    },
+    "ulcer": {
+        "symptoms": ["stomach pain", "heartburn", "nausea", "bloating"],
+        "advice": "You may have a stomach ulcer. Avoid spicy foods and consult a gastroenterologist."
+    },
+    "malaria": {
+        "symptoms": ["fever", "chills", "sweating", "headache", "nausea"],
+        "advice": "You may have malaria. Get a blood test done immediately and consult a doctor for antimalarial treatment."
+    },
+    "dengue": {
+        "symptoms": ["fever", "body pain", "rash", "headache", "vomiting"],
+        "advice": "You may have dengue fever. Stay hydrated, avoid painkillers like aspirin, and seek medical care."
+    },
+    "thyroid": {
+        "symptoms": ["fatigue", "weight gain", "hair loss", "cold intolerance", "dry skin"],
+        "advice": "You may have a thyroid imbalance. Get a thyroid function test and consult an endocrinologist."
+    },
+    "chickenpox": {
+        "symptoms": ["fever", "rash", "itchiness", "tiredness", "loss of appetite"],
+        "advice": "You may have chickenpox. Avoid scratching, rest well, and consult a doctor for antiviral medication."
+    },
+    "urinary_tract_infection": {
+        "symptoms": ["burning urination", "frequent urination", "abdominal pain", "fever"],
+        "advice": "You may have a urinary tract infection. Drink plenty of water and consult a doctor for antibiotics."
+    },
+    "pneumonia": {
+        "symptoms": ["fever", "chills", "cough", "shortness of breath", "chest pain"],
+        "advice": "You may have pneumonia. Seek immediate medical attention for antibiotics or hospitalization."
+    },
+    "arthritis": {
+        "symptoms": ["joint pain", "stiffness", "swelling", "reduced mobility"],
+        "advice": "You may have arthritis. Gentle exercises and anti-inflammatory medication can help, but consult a doctor."
+    },
+    "dehydration": {
+        "symptoms": ["dry mouth", "dizziness", "fatigue", "dark urine", "thirst"],
+        "advice": "You may be dehydrated. Drink water or ORS frequently and rest."
+    },
+    "heat_stroke": {
+        "symptoms": ["high body temperature", "confusion", "nausea", "dizziness", "headache"],
+        "advice": "Possible heat stroke. Move to a cool place, drink fluids, and seek medical help immediately."
+    }
+}
